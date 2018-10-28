@@ -1,0 +1,36 @@
+.login {
+  padding: 60px 0;
+  font-size: 1rem;
+  font-family: 'Overpass Mono', monospace;
+}
+
+.login form {
+  margin: 0 auto;
+  max-width: 320px;
+}
+
+.login-signup-btn {
+  background-color: black;
+  color: white;
+  border: none;
+  font-family: 'Overpass Mono', monospace;
+  padding: 6px;
+  width: 100px;
+  box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.25);
+  margin: 5px 30px 5px 0;
+  outline: 0; 
+  border-radius: 2px;
+}
+
+.login-signup-btn:hover {
+  background-color: #00D118FF;
+}
+
+.input-field {
+  margin: 10px 0 15px 0;
+  outline: 0;
+  box-shadow: inset 0px 2px 5px 0px rgba(214, 214, 214, 0.4);
+  border: 1px solid lightgrey;
+  border-radius: 2px;
+  padding: 8px;
+}

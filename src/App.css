@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Allerta+Stencil|Francois+One|Jua|Krona+One|Overpass+Mono|Port+Lligat+Sans|Rubik+Mono+One|Stylish|Tenali+Ramakrishna|Voltaire');
+
+*, *:before, *:after {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  background-image: url("assets/images/piano.jpg");
+  background-position: top;
+}
+
+a {
+  font-family: 'Overpass Mono', monospace;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+/* Menu */
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  margin: 40px 0;
+}
+
+.title {
+  background-color: #00D618FF;
+  padding: 15px;
+  font-size: 28px;
+  font-family: 'Krona One', sans-serif;
+  font-weight: bold;
+  margin-left: 30px;
+  box-shadow: 0px 4px 5px 0px #2B2B2BEC;
+  border-radius: 2px;
+}
+
+.title:visited {
+  color: black;
+}
+
+.links {
+  background-color: black;
+  display: flex;  
+  flex-direction: row;
+  width: 80%;
+  justify-content: flex-end;
+  align-items: center;
+  height: 40px;
+  box-shadow: 0px 4px 5px 0px #2B2B2BEC;
+  border-radius: 2px;
+}
+
+.link {
+  color: white;
+  margin: 5px 30px;
+}
+
+.link:hover {
+  color: lightgrey;
+}
+
+.active {
+  color: #00D618FF;
+}
+
+/* Home */
+.home-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Overpass Mono', monospace;
+}
+
+.text-1 {
+  color: #00D618FF;
+  text-shadow: 2px 2px 3px rgba(255, 255, 255, 0.1); 
+}
+
+.text-2 {
+  text-align: center;
+}
+
+/* Artists */
+.artists-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Contact */
+.contact-content {
+  font-family: 'Overpass Mono', monospace;
+  text-align: center;
+  margin-top: 150px;
+}
